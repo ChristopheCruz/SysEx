@@ -9,5 +9,7 @@ Ces codes sont à titre d'exemple afin de comprendre les objectifs pédagogiques
 * Semaine 05 - TD03 - 
 
 ## Informations complémentaires
+* [GNU LibC](https://www.gnu.org/software/libc/manual/html_mono/libc.html) (en)
 * [GCC online documentation](https://gcc.gnu.org/onlinedocs/) (en)
 * [Noyau linux](https://www.kernel.org/) (en)
+* [SysCall Linux](http://syscalls.kernelgrok.com/) (en)
