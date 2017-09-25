@@ -1,5 +1,5 @@
-#include <stdio.h>  //pour la fonciton println
-#include <stdlib.h> //pour la macro EXIT_SUCCESS
+#include <stdio.h>  //librairie pour la fonction println
+#include <stdlib.h> //librairie pour la macro EXIT_SUCCESS
 
 // Programme de test pour la compilation d'un programme C
 // utiliser gcc dans la console sous linux ou bash MinGw
