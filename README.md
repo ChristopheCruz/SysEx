@@ -7,3 +7,7 @@ Ces codes sont à titre d'exemple afin de comprendre les objectifs pédagogiques
 * Semaine 03 - TD02 - Module et makefile
 * Semaine 04 - TP02 - Allocation dynamique
 * Semaine 05 - TD03 - 
+
+## Informations complémentaires
+* [GCC online documentation](https://gcc.gnu.org/onlinedocs/) (en)
+* [Noyau linux](https://www.kernel.org/) (en)
