@@ -38,7 +38,7 @@ void afficheMatrice(char tab[_SIZE_][_SIZE_])
     }
 }
 
-//Programme principal de la bâtaille navale
+//Programme principal de la bataille navale
 
 int main(int argc, char ** argv)
 {
