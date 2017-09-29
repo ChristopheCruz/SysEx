@@ -42,7 +42,9 @@ void afficheMatrice(char tab[_SIZE_][_SIZE_])
 
 int main(int argc, char ** argv)
 {
+    //initialisation de la matrice de bâteaux du joueur 1 (vide)
     initMatrice(J1Bateaux);
+    //affichage de cette matrice de bâteaux
     afficheMatrice(J1Bateaux);
     return EXIT_SUCCESS; 
 }
