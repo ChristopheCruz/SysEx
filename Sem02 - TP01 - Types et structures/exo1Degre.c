@@ -1,7 +1,7 @@
 #include <stdio.h>  
 #include <stdlib.h> 
 
-float c; // degré Celsius - variable globale
+float c; // degré celsius - variable globale
 
 //programme de calcul de conversion des °F en °c
 int main(int argc, char ** argv) //point d'entrée du programme C
