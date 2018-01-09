@@ -4,7 +4,7 @@
 #define _SIZE_ 10
 #define _MER_ '~'
 
-// déclaration des matrices de jeux, bâteaux et tirs pour les deux joueurs 
+// déclaration des matrices de jeux, bâteaux et tirs des deux joueurs 
 char J1Bateaux[_SIZE_][_SIZE_];
 char J2Bateaux[_SIZE_][_SIZE_];
 char J1Tirs[_SIZE_][_SIZE_];
