@@ -24,3 +24,4 @@ Ces codes sont à titre d'exemple afin de comprendre les objectifs pédagogiques
 * [GCC online documentation](https://gcc.gnu.org/onlinedocs/) (en)
 * [Noyau linux](https://www.kernel.org/) (en)
 * [SysCall Linux](http://syscalls.kernelgrok.com/) (en)
+* [awesome-c](https://github.com/aleksandar-todorovic/awesome-c#build-systems)
