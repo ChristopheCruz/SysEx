@@ -1,4 +1,4 @@
-Dans la suite, vous trouverez la liste des codes sources en langage C des TDs et TPs de système d'exploitation. 
+Dans la suite, vous trouverez la liste des codes sources en langage C des TDs et TPs de système d'exploitation.
 Ces codes sont à titre d'exemple afin de comprendre les objectifs pédagogiques du cours.
 
 ## Liste des TDs et TPs
@@ -6,6 +6,8 @@ Ces codes sont à titre d'exemple afin de comprendre les objectifs pédagogiques
 * Semaine 01 - TD01 - Installation d'[OpenBSD](https://www.openbsd.org/faq/index.html)
 * Semaine 02 - TP01 - Les types et structures
 * Semaine 03 - TD02 - les Modules et makefile
+    * [Tutoriel makefile](https://www.grafikart.fr/tutoriels/linux/makefile-953)
+    * [GNU Make](https://www.gnu.org/software/make/manual/make.html)
 * Semaine 04 - TP02 - Allocation dynamique
 * Semaine 05 - TD03 - Allocation dynamique et espace mémoire
 * Semaine 06 - TP03 - Les fichiers
