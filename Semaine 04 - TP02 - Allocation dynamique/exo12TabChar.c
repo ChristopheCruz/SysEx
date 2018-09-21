@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Programme d'exemple 
-// - de passage de paramètre à la commande
+//Programme exemple 
+// - de passage de paramètres à la commande
 // - allocation dynamique d'une matrice à 2 dimensions de caractères
 
 // premier paramètre: hauteur

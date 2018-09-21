@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Programme d'exemple 
-// - de passage de paramètre à la commande
+//Programme exemple 
+// - de passage de paramètres à la commande
 // - allocation dynamique d'un tableau d'entiers 
 
 // premier paramètre: taille
@@ -18,7 +18,7 @@ int main(int argc, char** argv)
 	}
 	
 	//récupération des paramètres
-	//ici nous avons besoin de convertir une chaîne de caractère en entiers
+	//ici nous avons besoin de convertir une chaîne de caractères en entier
 	int taille = atoi(argv[1]);
 	int valeur = atoi(argv[2]);
 	
