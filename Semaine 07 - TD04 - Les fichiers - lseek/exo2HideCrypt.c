@@ -7,7 +7,7 @@
 
 #define SIZE 2048
 
-// ce programme est la version cryptant le fichier à cacher à l'aide d'une clé symétrique
+// ce programme est la version qui encrypte les données du fichier à cacher à l'aide d'une clé symétrique
 
 // fonction d'insertion du fichier source à la fin du fichier cible
 void insert(char *source, char* cible, char* mdp)
@@ -81,7 +81,6 @@ void extract(char *source, char* cible, char* mdp)
 	int nbLus = 0; //nombre de caractères lus
 	int i = 0;
 
-	
 	for(i=0; i<(taille/SIZE); i++)
 	{
 		read(descSource, buffer, SIZE);
@@ -98,14 +97,14 @@ void extract(char *source, char* cible, char* mdp)
 
 /////////////////////////////////////
 // Commande hideCrypt
-/////////////////////
+/////////////////////////////////////
 int main(int argc, char** argv)
 {
 	//test pour savoir si un fichier est passé en paramètre
 	if(argc != 5)
 	{
 		printf("USAGE: %s [-i|-e] [source] [cible] [clé]\n", argv[0]);
-        printf("La taille de la clé doit être inferieure à 64 octets\n");
+		printf("La taille de la clé doit être inferieure à 64 octets\n");
 		exit(EXIT_FAILURE);
 	}	
 	
