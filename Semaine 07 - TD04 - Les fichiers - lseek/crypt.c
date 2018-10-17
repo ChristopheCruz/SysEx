@@ -8,7 +8,7 @@
 int main(int argc, char ** argv)
 {
 	//definition de la cle de cryptage
-	//la taille de la clé doit être inferieur à 64 octets
+	//la taille de la clÃ© doit Ãªtre inferieur Ã  64 octets
 	char chaine[8] = "bonjour";
 
 	//encryptage d'un bloc de 8 octets

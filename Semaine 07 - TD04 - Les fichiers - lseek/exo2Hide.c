@@ -6,7 +6,9 @@
 
 void insert(char *source, char* cible)
 {
-	printf("insert !\n");
+	
+	
+	printf("%s insert in %s !\n", source, cible);
 }
 
 void extract(char *source, char* cible)

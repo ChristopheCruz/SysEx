@@ -4,7 +4,7 @@
 #define SIZE 2048
 
 //Commande cat
-//Version avec buffer
+//Version avec buffer ici de 2048 octets 
 int main(int argc, char** argv)
 {
 	//test pour savoir si un fichier est passé en paramètre
