@@ -5,7 +5,7 @@
 #include <string.h>
 #include <rpc/des_crypt.h>
 
-#define SIZE 8
+#define SIZE 2048
 
 // ce programme est la version cryptant le fichier à cacher à l'aide d'une clé symétrique
 
