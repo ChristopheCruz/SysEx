@@ -11,7 +11,6 @@
 	 Commande hideCrypt
 	 /////////////////////////////////////
 
-	 
 	 ce programme est la version précédente de hide 
 	 avec la capacité de chiffrer le fichier caché 
 	 à l'aide d'une clé symétrique.
@@ -39,7 +38,7 @@ void insert(char *source, char* cible, char* mdp)
     int i=0;
 	while(nbLus = read(descSource, buffer, SIZE))
 	{
-        //encryptage du buffer
+        //chiffrement du buffer
         ecb_crypt( mdp, buffer, SIZE, DES_ENCRYPT | DES_HW);
 		write(descCible, buffer, SIZE);
 		nbTotalLus += nbLus;
@@ -103,9 +102,12 @@ void extract(char *source, char* cible, char* mdp)
 	printf("Extraction de %s terminée !\n", cible);
 }
 
-/////////////////////////////////////
-// Commande hideCrypt
-/////////////////////////////////////
+/*
+
+ Commande hideCrypt USAGE: %s [-i|-e] [source] [cible] [clé]
+
+*/
+
 int main(int argc, char** argv)
 {
 	//test pour savoir si un fichier est passé en paramètre
