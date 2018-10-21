@@ -6,8 +6,16 @@
 #include <rpc/des_crypt.h>
 
 #define SIZE 2048
+/*
+	 //////////////////////////////////////
+	 Commande hideCrypt
+	 /////////////////////////////////////
 
-// ce programme est la version qui encrypte les données du fichier à cacher à l'aide d'une clé symétrique
+	 
+	 ce programme est la version précédente de hide 
+	 avec la capacité de chiffrer le fichier caché 
+	 à l'aide d'une clé symétrique.
+*/
 
 // fonction d'insertion du fichier source à la fin du fichier cible
 void insert(char *source, char* cible, char* mdp)
