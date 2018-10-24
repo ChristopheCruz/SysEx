@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Programme d'affiche des adresses des cellules
+// Programme affichant les adresses des cellules
 // d'un tableau alloué de manière statique
 // et de manière dynamique
 
