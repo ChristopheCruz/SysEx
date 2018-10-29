@@ -28,7 +28,7 @@ Ces codes sont à titre d'exemple afin de comprendre les objectifs pédagogiques
 * [SysCall Linux](http://syscalls.kernelgrok.com/) (en)
 * [awesome-c](https://github.com/aleksandar-todorovic/awesome-c#build-systems) (en)
 
-## Livre libre
+## Livres
 
 * [Framabook - Le C en 20h](https://framabook.org/docs/c20h/C20H_integrale_creative-commons-by-saV2_AOUT2013.pdf)
 * [Framabook - La ligne de commande](https://framabook.org/docs/c20h/C20H_integrale_creative-commons-by-saV2_AOUT2013.pdf)
