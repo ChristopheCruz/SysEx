@@ -6,7 +6,8 @@ Ces codes sont à titre d'exemple afin de comprendre les objectifs pédagogiques
 * Semaine 01 TD01 Installation d'[OpenBSD](https://www.openbsd.org/faq/index.html)
     * [Open BSD 6.4](https://www.openbsd.org/64.html)
     * [Télécharger l'ISO 6.4 pour amd64](./iso/cd64.iso)
-    * Installation de i3wm ([tutoriel de configuration](https://wiki.evolix.org/HowtoI3), [User's guide](https://i3wm.org/docs/userguide.html))
+    * Installation de i3wm - [tutoriel de configuration](https://wiki.evolix.org/HowtoI3), [User's guide](https://i3wm.org/docs/userguide.html)
+    * Package Manager - [faq](https://www.openbsd.org/faq/faq15.html)
   
 ```Shell
 # Passer en root
