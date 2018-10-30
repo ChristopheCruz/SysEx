@@ -6,6 +6,21 @@ Ces codes sont à titre d'exemple afin de comprendre les objectifs pédagogiques
 * Semaine 01 TD01 Installation d'[OpenBSD](https://www.openbsd.org/faq/index.html)
     * [Open BSD 6.4](https://www.openbsd.org/64.html)
     * [Télécharger l'ISO 6.4 pour amd64](./iso/cd64.iso)
+    * Installation de i3wm ([tutorial de configuration](https://wiki.evolix.org/HowtoI3), [User's guide](https://i3wm.org/docs/userguide.html))
+  
+```Shell
+# Passer en root
+$ pkg_add i3
+
+# definir i3 comme wm par défaut
+$ echo "/usr/local/bin/i3" >> /usr/home/username/.xinitrc
+$ chown username /usr/home/username/.xinitrc
+
+# lancer i3
+$ reboot
+$ startx
+```
+
 * Semaine 02 TP01 Les types et structures
 * Semaine 03 TD02 Les Modules et makefile
     * [Tutoriel makefile](https://www.grafikart.fr/tutoriels/linux/makefile-953)
